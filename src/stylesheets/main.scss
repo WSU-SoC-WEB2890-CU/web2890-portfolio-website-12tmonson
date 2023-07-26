@@ -1,3 +1,47 @@
 /* Your styles go here */
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* Fonts */
+@font-face {
+  font-family: 'Unica One';
+  src: url(../assets/UnicaOne-Regular.ttf);
+}
+@font-face {
+  font-family: 'Crimson Text';
+  src: url(../assets/CrimsonText-Regular.ttf);
+}
+
+body{
+  padding-top: 100px;
+  background-color: #28232b;
+  color: #D7FFFB;
+  font-family: 'Crimson Text', sans-serif;
+}
+
+.navbar .navbar-brand {
+  color: #234b45; 
+  font-family: 'Unica One', sans-serif;
+  font-size: 2em;
+}
+
+span {
+  color: orange;
+}
+
+.btn-primary {
+  background-color: #71eac6;
+  border-color: #234b45;
+  color: #4a5755;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  
+}
+  
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+  
+}
