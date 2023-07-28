@@ -7,27 +7,29 @@
   font-family: 'Unica One';
   src: url(../assets/UnicaOne-Regular.ttf);
 }
+
 @font-face {
   font-family: 'Crimson Text';
   src: url(../assets/CrimsonText-Regular.ttf);
 }
 
-body{
+body {
   padding-top: 100px;
   background-color: #28232b;
   color: #D7FFFB;
   font-family: 'Crimson Text', sans-serif;
 }
-p{
+
+p {
   font-size: 1.5em;
 }
 
-.navbar{
+.navbar {
   font-family: 'Unica One', sans-serif;
 }
 
 .navbar .navbar-brand {
-  color: #234b45; 
+  color: #234b45;
   font-family: 'Unica One', sans-serif;
   font-size: 2em;
 }
@@ -41,9 +43,10 @@ span {
   border-color: #234b45;
 }
 
-.btn-primary a{
+.btn-primary a {
   color: #4a5755;
-  text-decoration: none;;
+  text-decoration: none;
+  ;
 }
 
 .btn-primary:hover {
@@ -60,28 +63,45 @@ span {
   opacity: 1.0;
 }
 
-footer{
+footer {
   background-color: #234b45;
   padding: 20px;
   font-family: 'Unica One', sans-serif;
 }
 
-#copywright{
+#copywright {
   font-size: 0.25em;
 }
 
-.galleryImage{
+.galleryImage {
   border-radius: 50px;
 }
 
+.description {
+  display: none;
+}
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-  .nav-link{
+  .nav-link {
     font-size: 1.5em;
   }
+
+  .col-lg-6 .galleryImage,
+  .col-md-4 .galleryImage {
+    height: 300px;
+  }
+
+  .gallery-img {
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .description {
+    font-size: 0.75em;
+    display: flex;
+  }
 }
-  
 
 /* Desktop */
 @media screen and (min-width: 992px) {
@@ -92,4 +112,22 @@ footer{
   button a {
     font-size: 2em;
   }
+
+  .description {
+    font-size: 1em;
+  }
+
+  .container.bg-black {
+    height: 500px;
+  }
+
+  .container.bg-white {
+    height: 500px;
+  }
+
+  .description {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
 }
