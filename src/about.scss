@@ -1,0 +1,21 @@
+body {
+    font-family: 'Unica One', sans-serif;
+}
+
+p {
+    font-style: italic;
+}
+.timeline .timeline-dot {
+    border: 2px solid #17a2b8;
+    background-color: #f8f9fa;
+}
+
+.timeline .timeline-line {
+    border-left: 2px white;
+}
+
+@media (min-width: 768px) {
+    .timeline .timeline-line {
+        display: none;
+    }
+}

@@ -18,6 +18,13 @@ body{
   color: #D7FFFB;
   font-family: 'Crimson Text', sans-serif;
 }
+p{
+  font-size: 1.5em;
+}
+
+.navbar{
+  font-family: 'Unica One', sans-serif;
+}
 
 .navbar .navbar-brand {
   color: #234b45; 
@@ -32,16 +39,57 @@ span {
 .btn-primary {
   background-color: #71eac6;
   border-color: #234b45;
-  color: #4a5755;
 }
+
+.btn-primary a{
+  color: #4a5755;
+  text-decoration: none;;
+}
+
+.btn-primary:hover {
+  background-color: #234b45;
+  border-color: #71eac6;
+}
+
+.galleryImage img {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.galleryImage:hover img {
+  opacity: 1.0;
+}
+
+footer{
+  background-color: #234b45;
+  padding: 20px;
+  font-family: 'Unica One', sans-serif;
+}
+
+#copywright{
+  font-size: 0.25em;
+}
+
+.galleryImage{
+  border-radius: 50px;
+}
+
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-  
+  .nav-link{
+    font-size: 1.5em;
+  }
 }
   
 
 /* Desktop */
 @media screen and (min-width: 992px) {
-  
+  p {
+    font-size: 2em;
+  }
+
+  button a {
+    font-size: 2em;
+  }
 }
